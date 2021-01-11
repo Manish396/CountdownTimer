@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "poppins" sans-serif;
+    background-image: url("./eve.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.countdown-container{
+    margin-top: -2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.days-c{
+    display: inline;
+}
+.days-c p{
+    font-weight: bold;
+    font-size: 4rem;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.days-c span{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 25px;
+    margin-right: 25px;
+}
